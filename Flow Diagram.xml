@@ -1,11 +1,17 @@
-<mxfile modified="2020-07-30T10:35:15.478Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" etag="pPQ468gmypziAL04jF3O" version="13.5.5" type="github">
+<mxfile modified="2020-08-03T08:40:16.425Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" etag="w0DuLgK9urLw4sL6CaNF" version="13.5.5" type="github">
   <diagram id="9IuxOP03kLso3IxChVFD" name="Page-1">
-    <mxGraphModel dx="1422" dy="1853" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2374" dy="2176" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="OW7JKbEs6JUtAD5_Uelw-53" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="1000" y="-313" width="1177" height="364" as="geometry" />
+          <mxGeometry x="1004" y="-371" width="1398" height="423" as="geometry" />
+        </mxCell>
+        <mxCell id="V8LRDqXsi-B_LjjMRbdk-51" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="1585" y="-48" width="611" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="V8LRDqXsi-B_LjjMRbdk-50" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1581" y="-338" width="622" height="284" as="geometry" />
         </mxCell>
         <mxCell id="2" value="[composite-creditcards]&lt;br&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;POST v1/composite/accounts/cards/creditcards/issue&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#82b366;strokeWidth=3;fillColor=#d5e8d4;fontFamily=Helvetica;fontSize=14;align=center;spacing=5;fontStyle=1;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="334" y="290" width="405" height="60" as="geometry" />
@@ -160,7 +166,7 @@
           <mxGeometry x="1134" y="-66.5" width="355" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OW7JKbEs6JUtAD5_Uelw-38" value="&lt;b&gt;[accounts-cards-creditcard]&lt;br&gt;&lt;/b&gt;&lt;font color=&quot;#ff0000&quot;&gt;POST /v1/b2k/accounts/cards/creditcards/issue/notify&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#d6b656;strokeWidth=3;fillColor=#fff2cc;fontFamily=Helvetica;fontSize=14;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
-          <mxGeometry x="1656" y="-45" width="370" height="60" as="geometry" />
+          <mxGeometry x="1656" y="-35" width="370" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OW7JKbEs6JUtAD5_Uelw-39" value="&lt;b&gt;[bg-accounts-cards]&lt;br&gt;POST /&lt;font color=&quot;#ff173e&quot;&gt;v2&lt;/font&gt;/bg/accounts/cards/issueCard&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#d6b656;strokeWidth=3;fillColor=#fff2cc;fontFamily=Helvetica;fontSize=14;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="1656" y="-194" width="370" height="60" as="geometry" />
@@ -201,9 +207,6 @@
         <mxCell id="OW7JKbEs6JUtAD5_Uelw-48" value="&lt;font style=&quot;font-size: 22px&quot;&gt;&lt;b&gt;LEAD&lt;/b&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="816" y="-77" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="OW7JKbEs6JUtAD5_Uelw-52" value="B2K" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
-          <mxGeometry x="2015" y="-33" width="120" height="52" as="geometry" />
-        </mxCell>
         <mxCell id="OW7JKbEs6JUtAD5_Uelw-55" value="&lt;font style=&quot;font-size: 19px&quot;&gt;New API&amp;nbsp;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="1041" y="-282" width="116" height="27" as="geometry" />
         </mxCell>
@@ -228,9 +231,6 @@
         <mxCell id="OW7JKbEs6JUtAD5_Uelw-63" value="&lt;span style=&quot;font-size: 14px&quot;&gt;Inquiry customer cards&lt;/span&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;rotation=-50;" parent="1" vertex="1">
           <mxGeometry x="1480" y="-156" width="152" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="OW7JKbEs6JUtAD5_Uelw-51" value="BG" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="2074" y="-212" width="120" height="80" as="geometry" />
-        </mxCell>
         <mxCell id="OW7JKbEs6JUtAD5_Uelw-66" value="&lt;b&gt;[bg-accounts-cards]&lt;br&gt;POST /&lt;font color=&quot;#ff173e&quot;&gt;v2&lt;/font&gt;/bg/accounts/cards/&lt;/b&gt;preIssuedCard" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#d6b656;strokeWidth=3;fillColor=#fff2cc;fontFamily=Helvetica;fontSize=14;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="1656" y="-120" width="370" height="60" as="geometry" />
         </mxCell>
@@ -242,6 +242,55 @@
         </mxCell>
         <mxCell id="OW7JKbEs6JUtAD5_Uelw-68" value="&lt;font style=&quot;font-size: 14px&quot;&gt;Prepaid&lt;/font&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;rotation=-15;" parent="1" vertex="1">
           <mxGeometry x="1562.5" y="-100" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="V8LRDqXsi-B_LjjMRbdk-46" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.995;entryY=0.977;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="31" target="OW7JKbEs6JUtAD5_Uelw-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2069" y="96.5" as="sourcePoint" />
+            <mxPoint x="2119" y="46.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2063" y="70" />
+              <mxPoint x="2063" y="47" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8LRDqXsi-B_LjjMRbdk-47" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.992;entryY=0.641;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="32" target="OW7JKbEs6JUtAD5_Uelw-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2041" y="100" as="sourcePoint" />
+            <mxPoint x="2036.13" y="25.52800000000002" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2088" y="92" />
+              <mxPoint x="2095" y="46" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8LRDqXsi-B_LjjMRbdk-48" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="OW7JKbEs6JUtAD5_Uelw-66" target="OW7JKbEs6JUtAD5_Uelw-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2041" y="100" as="sourcePoint" />
+            <mxPoint x="2036.13" y="25.52800000000002" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2071" y="-70" />
+              <mxPoint x="2055" y="-20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8LRDqXsi-B_LjjMRbdk-49" value="" style="curved=1;endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OW7JKbEs6JUtAD5_Uelw-39" target="OW7JKbEs6JUtAD5_Uelw-38">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="2038" y="-80" as="sourcePoint" />
+            <mxPoint x="2035.7560000000003" y="-9.60799999999972" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="2108" y="-71" />
+              <mxPoint x="2065" y="-10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V8LRDqXsi-B_LjjMRbdk-53" value="FIS/BG" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2101" y="-316" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="V8LRDqXsi-B_LjjMRbdk-54" value="B2K" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2118" y="-40" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="V8LRDqXsi-B_LjjMRbdk-55" value="&lt;h1&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;Send Data to B2K via new API&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;Currently APIs v1 send data to MQ/B2K directly. Then need to change to call new API instead.&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="2086" y="73" width="190" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
