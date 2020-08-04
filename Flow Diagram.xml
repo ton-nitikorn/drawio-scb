@@ -1,6 +1,6 @@
-<mxfile modified="2020-08-04T04:35:04.720Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" etag="l8dmYeLv0h0svWZ03nDE" version="13.5.5" type="github">
+<mxfile modified="2020-08-04T05:38:16.303Z" host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36" etag="SurX4jNcuyf1PymVqMMl" version="13.5.5" type="github">
   <diagram id="9IuxOP03kLso3IxChVFD" name="Page-1">
-    <mxGraphModel dx="1422" dy="1902" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="1853" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -79,7 +79,7 @@
         <mxCell id="18" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="129" y="70" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="19" value="&lt;div style=&quot;text-align: left&quot;&gt;&lt;span&gt;Existing services but need to change endpoint name&lt;/span&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="19" value="&lt;div&gt;Improve existing service&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="159" y="70" width="290" height="20" as="geometry" />
         </mxCell>
         <mxCell id="20" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
@@ -131,10 +131,10 @@
         <mxCell id="30" value="&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;&lt;b&gt;[customer-services-origination]&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;span&gt;POST /v1/customerServices/origination/creditcard/inquiry&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;text-align: left&quot;&gt;PUT /v1/customerServices/origination/creditcard&lt;/div&gt;&lt;div style=&quot;text-align: left&quot;&gt;POST /v1/customerServices/origination/creditcard&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#82b366;strokeWidth=3;fillColor=#d5e8d4;fontFamily=Helvetica;fontSize=14;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="469" y="670" width="410" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="31" value="&lt;b&gt;[bg-accounts-cards]&lt;br&gt;&lt;/b&gt;POST /v1/bg/accounts/cards/preIssuedCard&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#82b366;strokeWidth=3;fillColor=#d5e8d4;fontFamily=Helvetica;fontSize=14;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+        <mxCell id="31" value="&lt;b&gt;[bg-accounts-cards]&lt;br&gt;&lt;/b&gt;POST /v1/bg/accounts/cards/preIssuedCard&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#d6b656;strokeWidth=3;fillColor=#fff2cc;fontFamily=Helvetica;fontSize=14;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="1659" y="60" width="370" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="32" value="&lt;b&gt;[bg-accounts-cards]&lt;br&gt;&lt;/b&gt;POST /v1/bg/accounts/cards/issueCard&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#82b366;strokeWidth=3;fillColor=#d5e8d4;fontFamily=Helvetica;fontSize=14;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+        <mxCell id="32" value="&lt;b&gt;[bg-accounts-cards]&lt;br&gt;&lt;/b&gt;POST /v1/bg/accounts/cards/issueCard&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#d6b656;strokeWidth=3;fillColor=#fff2cc;fontFamily=Helvetica;fontSize=14;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="1659" y="136.5" width="370" height="60" as="geometry" />
         </mxCell>
         <mxCell id="33" value="&lt;font color=&quot;#121212&quot;&gt;&lt;span style=&quot;font-weight: normal&quot;&gt;JCB / TRAVEL&lt;/span&gt;&lt;br&gt;&lt;/font&gt;" style="edgeStyle=none;rounded=1;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;jettySize=auto;orthogonalLoop=1;strokeColor=#12AAB5;strokeWidth=3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;spacing=5;fontStyle=1;fillColor=#b0e3e6;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="7" target="31" edge="1">
@@ -162,13 +162,13 @@
             <mxPoint x="1130" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OW7JKbEs6JUtAD5_Uelw-37" value="&lt;b&gt;[bg-accounts-cards]&lt;br&gt;&lt;/b&gt;POST /&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;v2&lt;/b&gt;&lt;/font&gt;/bg/accounts/cards/creditcards/issue" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#d6b656;strokeWidth=3;fillColor=#fff2cc;fontFamily=Helvetica;fontSize=14;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+        <mxCell id="OW7JKbEs6JUtAD5_Uelw-37" value="&lt;b&gt;[bg-accounts-cards]&lt;br&gt;&lt;/b&gt;POST /&lt;font color=&quot;#ff3333&quot;&gt;&lt;b&gt;v2&lt;/b&gt;&lt;/font&gt;/bg/accounts/cards/creditcards/issue" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#b85450;strokeWidth=3;fillColor=#f8cecc;fontFamily=Helvetica;fontSize=14;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="1134" y="-66.5" width="355" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OW7JKbEs6JUtAD5_Uelw-38" value="&lt;b&gt;[accounts-cards-creditcard]&lt;br&gt;&lt;/b&gt;&lt;font color=&quot;#ff0000&quot;&gt;POST /v1/b2k/accounts/cards/creditcards/issue/notify&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#d6b656;strokeWidth=3;fillColor=#fff2cc;fontFamily=Helvetica;fontSize=14;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+        <mxCell id="OW7JKbEs6JUtAD5_Uelw-38" value="&lt;b&gt;[accounts-cards-creditcard]&lt;br&gt;&lt;/b&gt;&lt;font color=&quot;#ff0000&quot;&gt;POST /v1/b2k/accounts/cards/creditcards/issue/notify&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#b85450;strokeWidth=3;fillColor=#f8cecc;fontFamily=Helvetica;fontSize=14;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="1656" y="-35" width="370" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="OW7JKbEs6JUtAD5_Uelw-39" value="&lt;b&gt;[bg-accounts-cards]&lt;br&gt;POST /&lt;font color=&quot;#ff173e&quot;&gt;v2&lt;/font&gt;/bg/accounts/cards/issueCard&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#d6b656;strokeWidth=3;fillColor=#fff2cc;fontFamily=Helvetica;fontSize=14;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+        <mxCell id="OW7JKbEs6JUtAD5_Uelw-39" value="&lt;b&gt;[bg-accounts-cards]&lt;br&gt;POST /&lt;font color=&quot;#ff173e&quot;&gt;v2&lt;/font&gt;/bg/accounts/cards/issueCard&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#b85450;strokeWidth=3;fillColor=#f8cecc;fontFamily=Helvetica;fontSize=14;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="1656" y="-194" width="370" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OW7JKbEs6JUtAD5_Uelw-41" value="" style="edgeStyle=none;rounded=1;jumpStyle=none;html=1;shadow=0;labelBackgroundColor=none;startArrow=none;startFill=0;jettySize=auto;orthogonalLoop=1;strokeColor=#d6b656;strokeWidth=3;fontFamily=Helvetica;fontSize=14;fontColor=#FFFFFF;spacing=5;fontStyle=1;fillColor=#fff2cc;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" parent="1" source="OW7JKbEs6JUtAD5_Uelw-37" target="OW7JKbEs6JUtAD5_Uelw-39" edge="1">
@@ -231,7 +231,7 @@
         <mxCell id="OW7JKbEs6JUtAD5_Uelw-63" value="&lt;span style=&quot;font-size: 14px&quot;&gt;Inquiry customer cards&lt;/span&gt;" style="text;html=1;resizable=0;points=[];autosize=1;align=left;verticalAlign=top;spacingTop=-4;rotation=-50;" parent="1" vertex="1">
           <mxGeometry x="1480" y="-156" width="152" height="15" as="geometry" />
         </mxCell>
-        <mxCell id="OW7JKbEs6JUtAD5_Uelw-66" value="&lt;b&gt;[bg-accounts-cards]&lt;br&gt;POST /&lt;font color=&quot;#ff173e&quot;&gt;v2&lt;/font&gt;/bg/accounts/cards/&lt;/b&gt;preIssuedCard" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#d6b656;strokeWidth=3;fillColor=#fff2cc;fontFamily=Helvetica;fontSize=14;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
+        <mxCell id="OW7JKbEs6JUtAD5_Uelw-66" value="&lt;b&gt;[bg-accounts-cards]&lt;br&gt;POST /&lt;font color=&quot;#ff173e&quot;&gt;v2&lt;/font&gt;/bg/accounts/cards/&lt;/b&gt;preIssuedCard" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;labelBackgroundColor=none;strokeColor=#b85450;strokeWidth=3;fillColor=#f8cecc;fontFamily=Helvetica;fontSize=14;align=center;spacing=5;fontStyle=0;arcSize=7;perimeterSpacing=2;" parent="1" vertex="1">
           <mxGeometry x="1656" y="-120" width="370" height="60" as="geometry" />
         </mxCell>
         <mxCell id="OW7JKbEs6JUtAD5_Uelw-67" value="" style="endArrow=classic;html=1;strokeColor=#d6b656;strokeWidth=4;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fillColor=#fff2cc;" parent="1" source="OW7JKbEs6JUtAD5_Uelw-37" target="OW7JKbEs6JUtAD5_Uelw-66" edge="1">
